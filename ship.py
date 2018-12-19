@@ -2,8 +2,7 @@ import pygame
 
 
 class Ship:
-
-    def _init_(self, screen):
+    def __init__(self, screen):
         """Initialize ship and starting position"""
         self.screen = screen
 
